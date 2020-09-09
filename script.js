@@ -1,9 +1,9 @@
 // format current date and time
 var currentDay = moment().format('dddd, MMMM Do');
 $("#currentDay").text(currentDay);
-// var currentHour = moment().format('h A');
+var currentHour = moment().format('h A');
 // change to test class conditions for hour block color
-var currentHour = "12 PM";
+// var currentHour = "12 PM";
 console.log("currentHour: " + currentHour);
  
 // create array of all times
