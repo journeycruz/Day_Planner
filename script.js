@@ -53,7 +53,7 @@ for (let i = 0; i < workTimes.length; i++) {
    // set text content of textareas based on current hour
    if (blockClass == "present") {
        textarea.textContent = "Current hour";
-       var currentHourIndex = 9;
+       var currentHourIndex = i;
    };
    // if future and current time block is last in workTimes array
    if (blockClass == "future" && i == workTimes.length - 1) {
